@@ -1,0 +1,10 @@
+
+.box-name{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.user-name{
+    font-size: 1.08rem;
+    font-weight: 400;
+}
