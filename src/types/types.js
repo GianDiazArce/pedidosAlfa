@@ -13,5 +13,10 @@ export const types = {
 
     pedidoProductsByFamily: '[Pedidos] Filter products by family',
     pedidoProductsClear: '[Pedidos] Clear all products',
+    pedidoProductAdd: '[Pedidos] Add Product for use edit table',
+    pedidoProductAdd2: '[Pedidos2] Add Product2 for use edit table',
+ 
+
+    pedidoAddProductToTable: '[Pedidos] Add Product in Table',
 
 }

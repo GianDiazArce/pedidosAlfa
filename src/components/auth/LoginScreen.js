@@ -49,8 +49,14 @@ export const LoginScreen = () => {
     const handleLoginSubmit = (e) => {
         e.preventDefault();
         const lowerUsername = username.toLowerCase();
+        if(lowerUsername === 'invitado'){
+            const invitadoUser = lowerUsername+'@invitado.com';
+            dispatch( startLoginWithEmailAndPassword( invitadoUser, password ) );
+        } else {
+
+            dispatch( startLoginWithEmailAndPassword( lowerUsername, password ) );
+        }
         
-        dispatch( startLoginWithEmailAndPassword( lowerUsername, password ) );
         
          
         

@@ -21,7 +21,7 @@ export const NavBar = () => {
                 <Link className="navbar-brand" to="/">PedidosApp</Link>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <NavLink activeClassName="active" className="nav-link nav-item" exact to="/">Inicio</NavLink>
+                        <NavLink activeClassName="active" className="nav-link nav-item" exact to="/">Pedidos1</NavLink>
                         <NavLink activeClassName="active" className="nav-link nav-item" exact to="/pedidos2">Pedidos2</NavLink>
                         {
                             (name === 'gian') &&
