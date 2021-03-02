@@ -208,7 +208,7 @@ export const PedidoScreen = () => {
         worksheet.getRow(2).height = 20;
         worksheet.getRow(2).getCell(1).font = { bold: true, size: 16 };
         worksheet.getRow(2).getCell(4).font = { bold: true, size: 16 };
-        worksheet.getColumn(1).values = ['Fecha de Pedido:', 'Nombre del cliente:', 'Condision de pago:', 'Razon Social:', 'Destino:', 'Transporte:'];
+        worksheet.getColumn(1).values = ['Fecha de Pedido:', 'Nombre del cliente:', 'Condición de pago:', 'Razon Social:', 'Destino:', 'Transporte:'];
         worksheet.getColumn(4).values = [moment().format('DD/MM/YYYY'), clientName.toUpperCase(), clientCondPago.toUpperCase(), clientRazonSocial.toUpperCase(), clientDestino.toUpperCase(), clientTransporte.toUpperCase()];
         worksheet.addRow({});
         
